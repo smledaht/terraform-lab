@@ -11,9 +11,9 @@ variable "tags" {
   }
 }
 
-# variable "resourcegroups" {
-#     type = map(any)
-# }
+variable "resgrp" {
+    type = map(any)
+}
 
 variable "subnets" {
   type = map(any)

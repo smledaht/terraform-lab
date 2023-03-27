@@ -22,3 +22,4 @@ variable "tags" {
   description = "(Optional) Specifies the tags of the storage account"
   default     = {}
 }
+

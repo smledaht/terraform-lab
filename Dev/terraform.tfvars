@@ -1,3 +1,17 @@
+## Resource Groups
+resgrp = {
+  network = {
+    resgrp_name     = "network"
+  }
+  container = {
+    resgrp_name     = "container"
+  }
+  registry = {
+    resgrp_name     = "registry"
+  }
+}
+
+## Network
 vnets = {
   app = {
     vnet_name     = "app"
@@ -40,6 +54,7 @@ containerregistries = {
   thadelmsdevcr = {
     cr_name = "thadelmsdevcr"
   }
+
   #   thadelmsprdcr = {
   #     cr_name = "thadelmsprdcr"
   #   }
