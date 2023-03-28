@@ -11,6 +11,20 @@ variable "tags" {
   }
 }
 
+## Naming conventions
+variable "loc" {
+  type        = string
+  default     = "cus" 
+}
+variable "org" {
+  type        = string
+  default     = "ppi"
+}
+variable "env" {
+  type        = string
+  default     = "ppd"
+}
+
 variable "resgrp" {
     type = map(any)
 }
